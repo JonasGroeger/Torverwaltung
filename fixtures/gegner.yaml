@@ -1,0 +1,34 @@
+- model: Torverwaltung.Gegner
+  pk: 1
+  fields:
+    name: TSV Bad Steben
+
+- model: Torverwaltung.Gegner
+  pk: 2
+  fields:
+    name: ATS Hof/West II
+
+- model: Torverwaltung.Gegner
+  pk: 3
+  fields:
+    name: FC Geroldsgrün
+
+- model: Torverwaltung.Gegner
+  pk: 4
+  fields:
+    name: FC Ahornberg
+
+- model: Torverwaltung.Gegner
+  pk: 5
+  fields:
+    name: FSV Naila
+
+- model: Torverwaltung.Gegner
+  pk: 6
+  fields:
+    name: FC Waldstein
+
+- model: Torverwaltung.Gegner
+  pk: 7
+  fields:
+    name: SV Selbitz II

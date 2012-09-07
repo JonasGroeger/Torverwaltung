@@ -1,0 +1,24 @@
+- model: Torverwaltung.Mannschaft
+  pk: 1
+  fields:
+    name: 1. Mannschaft
+
+- model: Torverwaltung.Mannschaft
+  pk: 2
+  fields:
+    name: 2. Mannschaft
+
+- model: Torverwaltung.Mannschaft
+  pk: 3
+  fields:
+    name: 3. Mannschaft
+
+- model: Torverwaltung.Mannschaft
+  pk: 4
+  fields:
+    name: Frauenmannschaft
+
+- model: Torverwaltung.Mannschaft
+  pk: 5
+  fields:
+    name: Altherren

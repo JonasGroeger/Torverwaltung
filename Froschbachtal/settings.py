@@ -1,8 +1,11 @@
 # coding=utf-8
 # Django settings for Froschbachtal project.
+import os
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
+
+PROJECT_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
 
 ADMINS = (
     ('Jonas Gröger', 'jonas.groeger@googlemail.com'),
@@ -10,10 +13,12 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+DATABASE = os.path.join(PROJECT_DIR, 'db', 'db.sqlite3')
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/home/jonas/Code/Froschbachtal/db.sqlite3',                      # Or path to database file if using sqlite3.
+        'NAME': DATABASE,                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -46,7 +51,7 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = os.path.join(PROJECT_DIR, 'assets')
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -103,7 +108,9 @@ ROOT_URLCONF = 'Froschbachtal.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'Froschbachtal.wsgi.application'
 
-TEMPLATE_DIRS = ('/home/jonas/Code/Froschbachtal/templates',)
+TEMPLATE_DIRS = (
+    '/home/jonas/Dropbox/Code/Froschbachtal/templates',
+    )
 
 INSTALLED_APPS = (
     'django.contrib.auth',

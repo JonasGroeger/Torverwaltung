@@ -1,0 +1,111 @@
+- model: Torverwaltung.Spieler
+  pk: 1
+  fields:
+    vorname: Benedikt
+    nachname: Burjakow
+    geburtstag: 2012-05-05
+
+- model: Torverwaltung.Spieler
+  pk: 2
+  fields:
+    vorname: Felix
+    nachname: Werner
+    geburtstag: 2012-04-07
+
+- model: Torverwaltung.Spieler
+  pk: 3
+  fields:
+    vorname: Georg
+    nachname: Weber
+    geburtstag: 2012-04-07
+
+- model: Torverwaltung.Spieler
+  pk: 4
+  fields:
+    vorname: Maxi
+    nachname: Weber
+    geburtstag: 2012-04-07
+
+- model: Torverwaltung.Spieler
+  pk: 5
+  fields:
+    vorname: Johannes
+    nachname: Müller
+    geburtstag: 2012-04-07
+
+- model: Torverwaltung.Spieler
+  pk: 6
+  fields:
+    vorname: Daniel
+    nachname: Schmidt
+    geburtstag: 2012-04-07
+
+- model: Torverwaltung.Spieler
+  pk: 7
+  fields:
+    vorname: Jörg
+    nachname: Weber
+    geburtstag: 2012-04-07
+
+- model: Torverwaltung.Spieler
+  pk: 8
+  fields:
+    vorname: Achim
+    nachname: Ernst
+    geburtstag: 2012-04-07
+
+- model: Torverwaltung.Spieler
+  pk: 9
+  fields:
+    vorname: Jonas
+    nachname: Gröger
+    geburtstag: 2012-05-05
+
+- model: Torverwaltung.Spieler
+  pk: 10
+  fields:
+    vorname: Waldemar
+    nachname: Jakunin
+    geburtstag: 2009-01-01
+    
+- model: Torverwaltung.Spieler
+  pk: 11
+  fields:
+    vorname: Alexander
+    nachname: Ruder
+    geburtstag: 2009-01-01
+
+- model: Torverwaltung.Spieler
+  pk: 12
+  fields:
+    vorname: David
+    nachname: Gröger
+    geburtstag: 2009-01-01
+
+- model: Torverwaltung.Spieler
+  pk: 13
+  fields:
+    vorname: Jutta
+    nachname: Gröger
+    geburtstag: 2009-01-01
+
+- model: Torverwaltung.Spieler
+  pk: 14
+  fields:
+    vorname: Boris
+    nachname: Deibl
+    geburtstag: 2009-01-01
+
+- model: Torverwaltung.Spieler
+  pk: 15
+  fields:
+    vorname: Wanka
+    nachname: Stanka
+    geburtstag: 2009-01-01
+
+- model: Torverwaltung.Spieler
+  pk: 16
+  fields:
+    vorname: Natur
+    nachname: Schnitzel
+    geburtstag: 2009-01-01
