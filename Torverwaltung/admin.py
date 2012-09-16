@@ -9,6 +9,7 @@ class SpielAdmin(admin.ModelAdmin):
     inlines = [EinsatzInline]
     list_filter = ['datum']
     search_fields = ['gegner__name']
+    list_display = ('datum', 'gegner', 'mannschaft', 'freundschaftsspiel')
 
 class SpielerAdmin(admin.ModelAdmin):
     list_display = ('vorname', 'nachname', 'geburtstag')

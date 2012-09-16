@@ -1,1 +1,20 @@
 {% extends "html5_skeleton.html" %}
+
+{% block title %}Alle Spieler: Tore pro Mannschaft{% endblock %}
+
+{% block body %}
+    <h1>Statistiken für den Zeitraum {{ spieler_stats_list.0.from_date }} bis {{ spieler_stats_list.0.to_date }}</h1>
+    <ol>
+        {% for spieler_stat in spieler_stats_list %}
+            <li>
+                {{ spieler_stat.spieler }}:
+                <ol>
+                    {% for tore_zeitraum in spieler_stat.tore_zeitraum_list %}
+                        {{ tore_zeitraum.tore }} in {{ tore_zeitraum.mannschaft }} <br>
+                    {% endfor %}
+
+                </ol>
+            </li>
+        {% endfor %}
+    </ol>
+{% endblock %}
